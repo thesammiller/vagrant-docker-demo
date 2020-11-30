@@ -1,0 +1,5 @@
+#!/bin/bash
+
+docker build -f ./dockerfile_master -t vu_mr_master .
+docker build -f ./dockerfile_map -t vu_mr_map .
+docker build -f ./dockerfile_reduce -t vu_mr_reduce
